@@ -1,0 +1,197 @@
+{
+	"NB":
+	[
+		{
+			"content":[
+				{
+					"img1":"./img/1.jpg",
+					"Cp":"新英雄情侣登场虐狗"
+				},
+				{
+					"img1":"./img/2.jpg",
+					"Cp":"季中赛活动，请点击查看"
+				},
+				{
+					"img1":"./img/3.jpg",
+					"Cp":"战火点燃，为喜欢的队伍加油"
+				},
+				{
+					"img1":"./img/4.jpg",
+					"Cp":"瓦斯塔业，娜美与阿狸"
+				},
+				{
+					"img1":"./img/5.jpg",
+					"Cp":"MSI魔法引擎限时销售"
+				}
+			]
+		},
+		{
+			"product":[{
+				"name":"手办",
+				"content":[{"name":"神龙烈焰金克丝（周年纪念版）","price":150,"src":"./img/shou11.jpg","id":0,"chooseNum":0,"numb":0},
+					{"name":"电玩战魂 赫卡里姆 手办","price":150,"src":"./img/shou12.jpg","id":1,"chooseNum":0,"numb":0},
+					{"name":"2017春节限定款 阿兹尔 手办","price":150,"src":"./img/shou13.jpg","id":2,"chooseNum":0,"numb":0},
+					{"name":"冠军之刃 锐雯 手办（已下架）","price":150,"src":"./img/shou14.jpg","id":3,"chooseNum":0,"numb":0},
+					{"name":"暴走萝莉 金克丝 手办","price":150,"src":"./img/shou15.jpg","id":4,"chooseNum":0,"numb":0},
+					{"name":"纳什男爵 手办（活动限定版）","price":150,"src":"./img/shou16.jpg","id":5,"chooseNum":0,"numb":0},
+					{"name":"诺克萨斯之手 德莱厄斯 手办","price":150,"src":"./img/shouq17.jpg","id":6,"chooseNum":0,"numb":0},
+					{"name":"唤潮鲛姬 娜美 手办","price":150,"src":"./img/shou18.jpg","id":7,"chooseNum":0,"numb":0},
+					{"name":"冠军典狱长 锤石 手办（已下架）","price":150,"src":"./img/shou20.jpg","id":8,"chooseNum":0,"numb":0},
+					{"name":"萌侦探喵尔摩斯 纳尔 手办","price":150,"src":"./img/shou21.jpg","id":9,"chooseNum":0,"numb":0},
+					{"name":"仙灵女巫 璐璐 手办","price":150,"src":"./img/shou22.jpg","id":10,"chooseNum":0,"numb":0}
+					]
+			},
+				{
+					"name":"雕塑",
+					"content":[
+						{"name":"爆破鬼才 吉格斯 雕塑","price":900,"src":"./img/shou23.jpg","id":11,"chooseNum":0,"numb":0},
+						{"name":"魂锁典狱长 锤石 雕塑","price":420,"src":"./img/shou24.jpg","id":12,"chooseNum":0,"numb":0},
+						{"name":"皮城女警 凯特琳 雕塑","price":360,"src":"./img/shou25.jpg","id":13,"chooseNum":0,"numb":0},
+						{"name":"卡牌大师 崔斯特 雕塑（已下架）","price":1500,"src":"./img/shou26.jpg","id":14,"chooseNum":0,"numb":0},
+						{"name":"不祥之刃 卡特琳娜 雕塑","price":390,"src":"./img/shou27.jpg","id":15,"chooseNum":0,"numb":0},
+						{"name":"皮城执法官 蔚 雕塑","price":390,"src":"./img/shou28.jpg","id":16,"chooseNum":0,"numb":0},
+						{"name":"寒冰射手 艾希 雕塑","price":390,"src":"./img/shou29.jpg","id":17,"chooseNum":0,"numb":0}
+					]
+				},
+				{
+					"name":"毛绒玩偶",
+					"content":[
+						{"name":"提伯斯熊 毛绒玩偶","price":180,"src":"./img/shou30.jpg","id":18,"chooseNum":0,"numb":0},
+						{"name":"迷失之牙 纳尔 毛绒玩偶","price":180,"src":"./img/shou31.jpg","id":19,"chooseNum":0,"numb":0},
+						{"name":"熊猫提莫 毛绒玩偶","price":150,"src":"./img/shou32.jpg","id":20,"chooseNum":0,"numb":0},
+						{"name":"兔宝宝 提莫 毛绒玩偶","price":180,"src":"./img/shou33.jpg","id":21,"chooseNum":0,"numb":0},
+						{"name":"魄罗娃娃 毛绒玩偶","price":150,"src":"./img/shou34.jpg","id":22,"chooseNum":0,"numb":0},
+						{"name":"小型魄罗毛绒节日版","price":150,"src":"./img/shou35.jpg","id":23,"chooseNum":0,"numb":0},
+						{"name":"提莫帽子","price":120,"src":"./img/shou36.jpg","id":24,"chooseNum":0,"numb":0},
+						{"name":"库奇帽子","price":150,"src":"./img/shou37.jpg","id":25,"chooseNum":0,"numb":0},
+						{"name":"拉莫斯魄罗 毛绒玩偶","price":120,"src":"./img/shou38.jpg","id":26,"chooseNum":0,"numb":0},
+						{"name":"魄罗Party礼包","price":510,"src":"./img/shou39.jpg","id":27,"chooseNum":0,"numb":0},
+						{"name":"仙灵女巫 璐璐 毛绒玩偶","price":150,"src":"./img/shou40.jpg","id":28,"chooseNum":0,"numb":0},
+						{"name":"魄罗王毛绒","price":160,"src":"./img/shou41.jpg","id":29,"chooseNum":0,"numb":0},
+						{"name":"最后一个恐龙","price":290,"src":"./img/shou42.jpg","id":30,"chooseNum":0,"numb":0}
+					]
+				},
+				{
+					"name":"男女服饰",
+					"content":[
+						{"name":"DJ娑娜 T恤（女款）","price":150,"src":"./img/shou43.jpg","id":31,"chooseNum":0,"numb":0},
+						{"name":"DJ娑娜 T恤（男款）","price":150,"src":"./img/shou44.jpg","id":32,"chooseNum":0,"numb":0},
+						{"name":"娜美 T恤 (Junk Food合作款)","price":150,"src":"./img/shou45.jpg","id":33,"chooseNum":0,"numb":0},
+						{"name":"艾克Z型驱动  T恤","price":150,"src":"./img/shou46.jpg","id":34,"chooseNum":0,"numb":0},
+						{"name":"欧米伽小队 提莫连帽衫","price":390,"src":"./img/shou47.jpg","id":35,"chooseNum":0,"numb":0},
+						{"name":"亚索精选连帽衫","price":510,"src":"./img/shou48.jpg","id":36,"chooseNum":0,"numb":0},
+						{"name":"疾风剑豪 亚索 T恤（男女同款）","price":120,"src":"./img/shou49.jpg","id":37,"chooseNum":0,"numb":0},
+						{"name":"傲之追猎者 雷恩加尔 T恤","price":120,"src":"./img/shou50.jpg","id":38,"chooseNum":0,"numb":0},
+						{"name":"源计划：易 T恤","price":150,"src":"./img/shou51.jpg","id":39,"chooseNum":0,"numb":0}
+					]
+				},
+				{
+					"name":"海报艺术",
+					"content":[
+						{"name":"提莫小队","price":40,"src":"./img/shou52.jpg","id":40,"chooseNum":0,"numb":0},
+						{"name":"决战","price":40,"src":"./img/shou53.jpg","id":41,"chooseNum":0,"numb":0},
+						{"name":"出击","price":40,"src":"./img/shou54.jpg","id":42,"chooseNum":0,"numb":0},
+						{"name":"变幻之风","price":40,"src":"./img/shou55.jpg","id":43,"chooseNum":0,"numb":0},
+						{"name":"大地怒火","price":40,"src":"./img/shou56.jpg","id":44,"chooseNum":0,"numb":0},
+						{"name":"猎","price":40,"src":"./img/shou57.jpg","id":45,"chooseNum":0,"numb":0}
+					]
+				}]
+		},
+		{
+			"content":[
+				{
+					"img1":"./img/3.jpg",
+					"Cp":"战火点燃，为喜欢的队伍加油"
+				},
+				{
+					"img1":"./img/2.jpg",
+					"Cp":"季中赛活动，请点击查看"
+				},
+				{
+					"img1":"./img/4.jpg",
+					"Cp":"瓦斯塔业，娜美与阿狸"
+				},
+				{
+					"img1":"./img/1.jpg",
+					"Cp":"新英雄情侣登场虐狗"
+				},
+				{
+					"img1":"./img/5.jpg",
+					"Cp":"MSI魔法引擎限时销售"
+				}
+			]
+		},
+		{
+			"content":[
+				{
+					"img1":"./img/5.jpg",
+					"Cp":"战火点燃，为喜欢的队伍加油"
+				},
+				{
+					"img1":"./img/2.jpg",
+					"Cp":"季中赛活动，请点击查看"
+				},
+				{
+					"img1":"./img/1.jpg",
+					"Cp":"MSI魔法引擎限时销售"
+				},
+				{
+					"img1":"./img/4.jpg",
+					"Cp":"瓦斯塔业，娜美与阿狸"
+				},
+				{
+					"img1":"./img/3.jpg",
+					"Cp":"新英雄情侣登场虐狗"
+				}
+			]
+		},
+		{
+			"content":[
+				{
+					"img1":"./img/3.jpg",
+					"Cp":"战火点燃，为喜欢的队伍加油"
+				},
+				{
+					"img1":"./img/5.jpg",
+					"Cp":"季中赛活动，请点击查看"
+				},
+				{
+					"img1":"./img/2.jpg",
+					"Cp":"新英雄情侣登场虐狗"
+				},
+				{
+					"img1":"./img/4.jpg",
+					"Cp":"瓦斯塔业，娜美与阿狸"
+				},
+				{
+					"img1":"./img/1.jpg",
+					"Cp":"MSI魔法引擎限时销售"
+				}
+			]
+		},
+		{
+			"content":[
+				{
+					"img1":"./img/1.jpg",
+					"Cp":"新英雄情侣登场虐狗"
+				},
+				{
+					"img1":"./img/2.jpg",
+					"Cp":"季中赛活动，请点击查看"
+				},
+				{
+					"img1":"./img/3.jpg",
+					"Cp":"战火点燃，为喜欢的队伍加油"
+				},
+				{
+					"img1":"./img/4.jpg",
+					"Cp":"瓦斯塔业，娜美与阿狸"
+				},
+				{
+					"img1":"./img/5.jpg",
+					"Cp":"MSI魔法引擎限时销售"
+				}
+			]
+		}
+	]
+}

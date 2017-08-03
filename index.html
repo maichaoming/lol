@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lol</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/ionic.min.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/ionic.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/index.css" charset="utf-8">
+</head>
+<body ng-app="app" ng-controller="all">
+	<div class="main" style="z-index: 2;">
+	
+	<ion-side-menus>
+	 <ion-side-menu-content>
+		<div class="bar bar-header bar-dark">
+			<i class="icon ion-ios-search-strong i1"></i>
+			<h2 class="title">{{Name}}</h2>
+			<i class="icon ion-ios-cart i2" ng-click="toggleRight()"></i>
+		</div>
+		<!-- 头部 -->
+
+	
+	<section class="section1" ng-hide="btan1">
+		<div class="tabs tabs-striped tabs-top tabs1" style="background: white;">
+			<div ng-click="aa($event)" class="tab-item tab-item1 a1" id="a1" >
+				<span>最新</span>
+			</div>
+			<div class="tab-item a2 tab-item1" id="a2" ng-click="aa($event)">
+				<span>新闻</span>
+			</div>
+			<div class="tab-item a3 tab-item1" id="a3" ng-click="aa($event)">
+				<span>赛事</span>
+			</div>
+			<div class="tab-item a4 tab-item1" id="a4" ng-click="aa($event)">
+				<span>娱乐</span>
+			</div>
+			<div class="tab-item a5 tab-item1" id="a5">
+				<span>季中赛</span>
+			</div>
+		</div>
+		<ion-content>
+			<ion-refresher pulling-text="释放既可以刷新.." on-refresh="change()"></ion-refresher>
+		<div class="swiper-container" style="margin-top:90px;">
+	    	<div class="swiper-wrapper Img1" >
+		        <div class="swiper-slide img1">
+					
+		        </div>
+		        <div class="swiper-slide img2">
+					
+		        </div>
+		        <div class="swiper-slide img3">
+					
+		        </div>
+		        <div class="swiper-slide img4">
+					
+		        </div>
+		        <div class="swiper-slide img5">
+					
+		        </div>
+	    	</div>
+	     <div class="swiper-pagination"></div>
+		</div>
+		<!-- 最新 -->
+		<div class="" ng-switch="toggle">
+		<div class="zuixin" ng-switch-when="a1">
+			<div class="list card" >
+				<div class="item item1 row" ng-repeat="x in arrs.NB[0].content">
+					<div class="col col-40 zuixin_img">
+						<img ng-src="{{x.img1}}">
+					</div>
+					<div class="col">
+							<p>{{x.Cp}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 新闻 -->
+		<div class="xinwen" ng-switch-when="a2">
+			<div class="list card" >
+				<div class="item item1 row" ng-repeat="x in arrs.NB[2].content">
+					<div class="col col-40 zuixin_img">
+						<img ng-src="{{x.img1}}">
+					</div>
+					<div class="col">
+						<div class="xiaoxi">
+							<p>{{x.Cp}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 赛事 -->
+		<div class="saishi" ng-switch-when="a3">
+			<div class="list card" >
+				<div class="item item1 row" ng-repeat="x in arrs.NB[3].content">
+					<div class="col col-40 zuixin_img">
+						<img ng-src="{{x.img1}}">
+					</div>
+					<div class="col">
+						<div class="xiaoxi">
+							<p>{{x.Cp}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 娱乐 -->
+		<div class="yule" ng-switch-when="a4">
+			<div class="list card" >
+				<div class="item item1 row" ng-repeat="x in arrs.NB[4].content">
+					<div class="col col-40 zuixin_img">
+						<img ng-src="{{x.img1}}">
+					</div>
+					<div class="col">
+						<div class="xiaoxi">
+							<p>{{x.Cp}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</ion-content>
+	</section>
+
+	<section class="section2" ng-hide="btan2">
+			<div class="list">
+				<div class="item row">
+					<div class="col">
+						<div class="cha cha1 font">
+							&#xe612;
+							<p>英雄资料</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="cha cha2 font" >
+							&#xe61f;
+							<p>召唤师查询</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="cha cha3 font">
+							&#xe622;
+							<p>英雄时刻</p>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="list">
+				<div class="item font font1">
+						&#xe60e;<span>英雄联盟宇宙</span>
+				</div>
+				<div class="item font font1">
+						&#xe62f;<span>对战助手</span>
+				</div>
+				<div class="item font font1">
+						&#xe61e;<span>游戏资料</span>
+				</div>
+				<div class="item font font1">
+						&#xe606;<span>附件特权网吧</span>
+				</div>
+				<div class="item font font1">
+						&#xe671;<span>壁纸</span>
+				</div>
+				<div class="item font font1">
+						&#xe605;<span>直播</span>
+				</div>
+			</div>
+
+			
+	</section>
+
+	<section class="section3" ng-hide="btan3">
+	<ion-content   style="margin-top:43px;margin-bottom:43px;background: rgba(0,0,0,.1);">
+			<ion-refresher pulling-text="释放既可以刷新.." on-refresh="change()"></ion-refresher>
+		<div class="list card">
+			<div class="item item-avatar">
+				<img src="./img/3.jpg">
+				<h2>林泽沛</h2>
+				<p>我是大帅哥</p>
+			</div>
+			<div class="item item-body">
+				<img src="./img/1.jpg" class="full-image">
+				<p>这是我的自拍</p>
+				<p>
+					<span class="subdued">
+						{{dZ1}} 点赞
+					</span>
+					<span class="subdued" style="float:right;">
+						5000 评论
+					</span>
+				</p>
+			</div>
+			<div class="item tabs tabs-icon-right">
+				<a href="#" class="tab-item" ng-click="dianz($event)">
+				<i class="icon ion-thumbsup"></i>
+				{{dZ2}}
+			</a>
+			<a href="#" class="tab-item">
+				<i class="icon ion-chatbox"></i>
+				评论
+			</a>
+			<a href="#" class="tab-item">
+				<i class="icon ion-share"></i>
+				分享
+			</a>
+			</div>
+		</div>
+		<div class="list card">
+			<div class="item item-avatar">
+				<img src="./img/5.jpg">
+				<h2>李少君</h2>
+				<p>我是一个兵</p>
+			</div>
+			<div class="item item-body">
+				<img src="./img/4.jpg" class="full-image">
+				<p>这是我的自拍</p>
+				<p>
+					<span class="subdued">
+						{{dZ1}} 点赞
+					</span>
+					<span class="subdued" style="float:right;">
+						5000 评论
+					</span>
+				</p>
+			</div>
+			<div class="item tabs tabs-icon-right">
+				<a href="#" class="tab-item" ng-click="dianz($event)">
+				<i class="icon ion-thumbsup"></i>
+				{{dZ2}}
+			</a>
+			<a href="#" class="tab-item">
+				<i class="icon ion-chatbox"></i>
+				评论
+			</a>
+			<a href="#" class="tab-item">
+				<i class="icon ion-share"></i>
+				分享
+			</a>
+			</div>
+		</div>
+	</ion-content>
+	</section>
+	<section class="section4" ng-hide="btan4">
+	
+			<div class="tabs tabs-striped tabs-top tabs1" style="background: black;">
+			<div ng-click="dd($event)" class="tab-item d1 tab-item2" id="d1" >
+				<span>手办</span>
+			</div>
+			<div class="tab-item d2 tab-item2" id="d2" ng-click="dd($event)">
+				<span>雕塑</span>
+			</div>
+			<div class="tab-item d3 tab-item2" id="d3" ng-click="dd($event)">
+				<span>毛绒玩偶</span>
+			</div>
+			<div class="tab-item d4 tab-item2" id="d4" ng-click="dd($event)">
+				<span>男女服饰</span>
+			</div>
+			<div class="tab-item d5 tab-item2" id="d5" ng-click="dd($event)">
+				<span>海报艺术</span>
+			</div>
+			</div>
+		<ion-content>
+			<ion-refresher pulling-text="释放既可以刷新.." on-refresh="change()"></ion-refresher>
+		<div class="swiper-container" style="margin-top:90px;">
+	    	<div class="swiper-wrapper Img1" >
+		        <div class="swiper-slide img6">
+					
+		        </div>
+		        <div class="swiper-slide img7">
+					
+		        </div>
+		        <div class="swiper-slide img8">
+					
+		        </div>
+		        <div class="swiper-slide img9">
+					
+		        </div>
+	    	</div>
+	     <div class="swiper-pagination"></div>
+	     
+		</div>
+		<div class="" ng-switch="toggle1">
+			<div class="shouban" ng-switch-when="d1">
+			<div class="nav nav1"></div>
+				<div class="list card">
+					<div class="item row item2" data-arr="{{x}}" ng-repeat="x in arrshou.product[0].content">
+						<div class="col col-40">
+							<div class="left_img1">
+							<img ng-src="{{x.src}}">
+							</div>
+						</div>
+						<div class="col">
+							<h2 class="h2">{{x.name}}</h2>
+							<p class="p11">￥{{x.price}}</p>
+							<div class="btn" ng-click="tadd($event)">放进购物车</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="diaosuo" ng-switch-when="d2">
+			<div class="nav nav2"></div>
+				<div class="list card">
+					<div class="item row item2" data-arr="{{x}}" ng-repeat="x in arrshou.product[1].content">
+						<div class="col col-40">
+							<div class="left_img1">
+							<img ng-src="{{x.src}}">
+							</div>
+						</div>
+						<div class="col">
+							<h2 class="h2">{{x.name}}</h2>
+							<p class="p11">￥{{x.price}}</p>
+							<div class="btn" ng-click="tadd($event)">放进购物车</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wanou" ng-switch-when="d3">
+			<div class="nav nav3"></div>
+				<div class="list card">
+					<div class="item row item2" data-arr="{{x}}" ng-repeat="x in arrshou.product[2].content">
+						<div class="col col-40">
+							<div class="left_img1">
+							<img ng-src="{{x.src}}">
+							</div>
+						</div>
+						<div class="col">
+							<h2 class="h2">{{x.name}}</h2>
+							<p class="p11">￥{{x.price}}</p>
+							<div class="btn" ng-click="tadd($event)">放进购物车</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="yifu" ng-switch-when="d4">
+			<div class="nav nav4"></div>
+				<div class="list card">
+					<div class="item row item2" data-arr="{{x}}" ng-repeat="x in arrshou.product[3].content">
+						<div class="col col-40">
+							<div class="left_img1">
+							<img ng-src="{{x.src}}">
+							</div>
+						</div>
+						<div class="col">
+							<h2 class="h2">{{x.name}}</h2>
+							<p class="p11">￥{{x.price}}</p>
+							<div class="btn" ng-click="tadd($event)">放进购物车</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="haibao" ng-switch-when="d5">
+			<div class="nav nav5"></div>
+				<div class="list card">
+					<div class="item row item2" data-arr="{{x}}" ng-repeat="x in arrshou.product[4].content">
+						<div class="col col-40">
+							<div class="left_img1">
+							<img ng-src="{{x.src}}">
+							</div>
+						</div>
+						<div class="col">
+							<h2 class="h2">{{x.name}}</h2>
+							<p class="p11">￥{{x.price}}</p>
+							<div class="btn" ng-click="tadd($event)">放进购物车</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		</ion-content>
+	</section>
+
+
+	<section class="section5" ng-hide="btan5">
+			<div class="list">
+				<div class="item item-avatar denglu">
+					<img src="./img/01.jpg" style="max-width: 85px;max-height: 85px;">
+					<h2> </h2>
+					<p style="font-size: 20px;margin:25px 0px 30px 60px;">点击登录</p>
+				</div>
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-ios-body assertive"></i>
+					我的LOL
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+			</div>
+			<div class="list">
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-social-usd assertive"></i>
+					我的钱包
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-outlet assertive"></i>
+					做任务赚福利
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+			</div>
+			<div class="list">
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-android-textsms assertive"></i>
+					我的评论
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-ios-star assertive"></i>
+					我的收藏
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-android-arrow-dropright-circle assertive"></i>
+					离线视频
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-android-desktop assertive"></i>
+					我的主播
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+				<div class="item item-icon-left item-icon-right">
+					<i class="icon ion-social-codepen assertive"></i>
+					我的竞猜
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+			</div>
+	</section>
+
+	
+	
+
+
+
+		<!-- 尾部 -->
+		<div class="tabs tabs-icon-top">
+			<div class="tab-item" id="a6" ng-click="bb1($event)">
+				<i class="icon ion-social-github"></i>
+				推荐
+			</div>
+			<div class="tab-item" id="a7" ng-click="bb2($event)">
+				<i class="icon ion-ios-game-controller-b"></i>
+				发现
+			</div>
+			<div class="tab-item" id="a8" ng-click="bb3($event)">
+				<i class="icon ion-ios-people"></i>
+				广场
+			</div>
+			<div class="tab-item" id="a9" ng-click="bb4($event)">
+				<i class="icon ion-speakerphone"></i>
+				周边
+			</div>
+			<div class="tab-item" id="a10" ng-click="bb5($event)">
+				<i class="icon ion-social-snapchat"></i>
+				我
+			</div>
+		</div>
+		</ion-side-menu-content>
+		<ion-side-menu side="right" class="righ1">
+			<h1>购物车</h1>
+			<h3>总价：</h3>
+			<button class="button button-assertive">
+ 				提交订单
+			</button>
+			<div class="list card">
+					<div class="item row item2" ng-repeat="x in addstr" data-id={{x.id}}>
+						<div class="col col-40">
+							<div class="left_img1">
+							<img ng-src="{{x.src}}">
+							</div>
+						</div>
+						<div class="col">
+							<h2 class="h2">{{x.name}}</h2>
+							<p class="p11">￥{{x.price}}</p>
+							
+						</div>
+					</div>
+				</div>
+				
+		</ion-side-menu>
+
+</ion-side-menus>
+</div>
+
+	
+<script type="text/javascript" src="./js/swiper.min.js"></script>
+<script type="text/javascript" src="./js/index1.js"></script>	
+<script type="text/javascript" src="./js/index.js"></script>
+
+</body>
+</html>
